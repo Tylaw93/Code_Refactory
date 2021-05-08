@@ -1,3 +1,4 @@
+/*Added the font family to everything by default*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -21,6 +22,8 @@ h1 {
     font-size: 48px;
 }
 
+/*Class for company name*/
+/* removed redundant repeating .header tags and just accessed indiviual elements*/
 .seo {
     color: #d9dcd6;
 }
@@ -49,7 +52,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* changed confusing class name*/
 .background {
     height: 800px;
     width: 100%;
@@ -75,6 +78,7 @@ article {
     margin-left: 20px;
 }
 
+/*changed the div to an aside and put applicibale content inside*/
 aside{
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +89,7 @@ aside{
     
     background-color: #2589bd;
 }
-
+/*remaning benefit content*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -110,7 +114,7 @@ section {
     color: #ffffff;
 }
 
-
+/* removed redundant repeating classes*/
 section img {
     max-height: 200px;
 }
